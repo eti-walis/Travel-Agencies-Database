@@ -1,0 +1,12 @@
+PL/SQL Developer Test script 3.0
+4
+begin
+  -- Call the procedure
+  delete_stop_procedure(delAddress => :delAddress);
+end;
+1
+delAddress
+1
+TEL_AVIV_AFEK_2
+5
+0

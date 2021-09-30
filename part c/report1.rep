@@ -1,0 +1,125 @@
+PL/SQL Developer Report
+
+[SQL]
+select numofrides, transportId
+from specialtransport
+order by numofrides;
+
+[Options]
+Connect=False
+Username=
+Password=2550
+Database=
+ConnectAs=
+LockMode=0
+LockedPassword=2396
+BkgColor=-16777211
+BkgImage=
+FormLayout=False
+OnlyNBSP=False
+LeftMargin=0
+TopMargin=0
+PageBreak=0
+AddSQL=False
+HandleTags=True
+
+[Styles]
+
+{Title}
+Enabled=True
+Name=Report Title
+Description=group transports by num of rides
+Style=Blue Title
+HeaderStyle=
+Align=2
+Break=0
+Function=0
+Format=
+
+{Param}
+Enabled=True
+Name=Variables
+Description=
+Style=
+HeaderStyle=
+Align=0
+Break=0
+Function=0
+Format=
+
+{Table}
+Enabled=False
+Name=Tabular Tables
+Description=
+Style=
+HeaderStyle=
+Align=0
+Break=0
+Function=0
+Format=
+
+{Form}
+Enabled=False
+Name=Form Tables
+Description=
+Style=
+HeaderStyle=
+Align=0
+Break=0
+Function=0
+Format=
+
+{Field}
+Enabled=False
+Name=Default Field
+Description=
+Style=
+HeaderStyle=
+Align=0
+Break=0
+Function=0
+Format=
+
+{*}
+Enabled=True
+Name=TRANSPORTID
+Description=Transport Id
+Style=
+HeaderStyle=Blue Form
+Align=3
+Break=0
+Function=0
+Format=
+
+{*}
+Enabled=True
+Name=NUMOFRIDES
+Description=Number of rides
+Style=
+HeaderStyle=Blue Form
+Align=3
+Break=3
+Function=0
+Format=
+
+
+
+[CSS]
+Blue Title
+{
+  Background: #000050;
+  Color: #FFFF00;
+  Font-family: "Arial Black";
+  Font-size: 12pt;
+  Font-style: Italic;
+  Text-align: Center;
+  Width: 100%;
+}
+
+Blue Form
+{
+  Background: #5050A0;
+  Border-style: None;
+}
+
+
